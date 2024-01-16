@@ -32,7 +32,8 @@ This project involves the analysis of  packet capture files (PCAP) using Wiresha
 <p> First PCAP shows (ARP) traffic, 192.168.56.1 is asking every IP on the same subnet for their associated MAC address</p>
 <p> This is a form of recon that allows a threat actor to identify Online systems within the same network when an ARP request has been replied to </p>
 <img src="https://imgur.com/z3KrDPD.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<P> We can see a threat actor port scanning a target system hence this information may be used for a connection attempt. Statistics > Conversations </P>
+<P> We can see a threat actor port scanning a target system hence this information may be used for a connection attempt.</P>
+<p> Statistics > Conversations </p>
 <img src="https://imgur.com/eOkVdav.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 
 <h3> FTP Traffic </h3>
