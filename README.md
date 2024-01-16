@@ -50,16 +50,19 @@ This project involves the analysis of  packet capture files (PCAP) using Wiresha
 <img src="https://imgur.com/0WuZB19.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/k9XIXnu.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 
+<h3> PCAP 2 </h3>
+<h3> Identify the IP address that downloaded the .zip file</h3>
+<p> Most likely protocol to be HTTP, Filter to HTTP traffic, File > Export Objects > HTTP</p>
+<p> If the file does not show up, Filter to different protocols such as SMB, SFTP, etc then repeat. </p>
+<img src="https://imgur.com/kFBox3F.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<img src="https://imgur.com/A2Peaz5.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> Result: cr4ckx0r.zip file found </p>
+<p> To view entire conversation better, right-click packet > Follow > TCP Stream</p>
+<img src="https://imgur.com/FmC4XuP.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> <Strong> Red Section</Strong> GET request from client 192.168.56.1 </p>
+<p> <Strong> Blue Section </Strong> OK with 200 response from server 192.168.56.111 </p>
 
 
-
-
-
-
-
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
