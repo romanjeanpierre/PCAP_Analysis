@@ -62,8 +62,9 @@ This project involves the analysis of  packet capture files (PCAP) using Wiresha
 <p> <Strong> Red Section</Strong> GET request from client 192.168.56.1 </p>
 <p> <Strong> Blue Section </Strong> OK with 200 response from server 192.168.56.111 </p>
 
+<h3> Calculate MD5 Hash value of zip file and its contents</h3>
 
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<img src="https://imgur.com/iWYWzi9.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 
