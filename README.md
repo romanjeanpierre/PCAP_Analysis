@@ -1,13 +1,29 @@
 <H1> PCAP Analysis w/ Wireshark</H1>
 
 <h2>Brief Description</h2>
-<p>
-Project Title: CMD & PowerShell Analysis
+This project involves the analysis of  packet capture files (PCAP) using Wireshark. The objective is to identify suspicious or malicious activities by extracting crucial information from the network traffic.</p>
 
-Project Description:
-This project involves the analysis of system processes and user accounts using Command Prompt (CMD) and PowerShell. The goal is to perform a thorough examination of the system's processes, user accounts, and related configurations to identify potential security risks and suspicious activities.
-This project provides a practical scenario for digital forensics professionals to uncover critical evidence, aiding in the conviction of a malicious hacker. The investigation delves into multiple aspects of system artifacts, showcasing the utilization of advanced tools and methodologies to achieve a comprehensive understanding of the suspect's activities.</p>
-
+<h2>Investigation Scenarios</h2>
+ <h3>PCAP 1 - Unusual Network Activity:</h3>
+    <p><strong>Objective:</strong> Investigate unusual activity on a /24 subnet, identify its source, and discern the attacker's intentions.</p>
+    <p><strong>Questions:</strong> Identify host discovery scanning, malicious port scanning, and FTP server-related information.</p>
+    <h3>PCAP 2 - Suspicious File Download:</h3>
+    <p><strong>Objective:</strong> Export and analyze a suspicious file downloaded onto a system, collecting indicators for potential threat hunting.</p>
+    <p><strong>Questions:</strong> Determine source IP, source and destination ports, file name, and various attributes of the downloaded ZIP file.</p>
+    <h3>PCAP 3 - FTP Server Under Attack:</h3>
+    <p><strong>Objective:</strong> Analyze network traffic to determine if an FTP server is successfully attacked, identifying the attacker's actions.</p>
+    <p><strong>Questions:</strong> Identify the IP running the FTP server, successful login time, credentials used, and details of the downloaded file.</p>
+    <h2>Key Activities:</h2>
+    <ul>
+        <li>Analyzing ARP traffic for host discovery.</li>
+        <li>Identifying and interpreting port-scanning activities.</li>
+        <li>Extracting information from FTP traffic, including user limits and login attempts.</li>
+        <li>Exporting and analyzing files from HTTP traffic, including ZIP files.</li>
+        <li>Determining source and destination details of file downloads.</li>
+        <li>Calculating MD5 hash values for extracted files.</li>
+        <li>Analyzing FTP server activities, login times, and user credentials.</li>
+    </ul>
+    
 <h2>Project Walk-Through</h2>
 <br/>
 <p align="center">
