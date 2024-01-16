@@ -79,8 +79,14 @@ Right Click > Follow > TCP Stream
 <img src="https://imgur.com/aja4vlZ.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <p> RETR password.backup</p>
 
-
-
+<h2> Conclusion </h2>
+Our PCAP Analysis project with Wireshark uncovered critical insights into network security threats through focused investigations.
+<ul>
+        <li>By analyzing ARP traffic, we identified host discovery scanning and potential connection attempts. FTP analysis revealed unsuccessful brute-force attempts, highlighting the importance of robust authentication.
+.</li>
+        <li>We successfully traced the source of a suspicious ZIP file through HTTP traffic analysis. Calculating the MD5 hash added a layer of security, aiding threat hunting and future incident response.
+</li>
+        <li>Detailed scrutiny of FTP activities unveiled successful logins, credentials, and retrieved files, such as 'password.backup,' providing a timeline for forensic analysis.
 
 
 
