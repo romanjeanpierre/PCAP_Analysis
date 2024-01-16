@@ -63,9 +63,26 @@ This project involves the analysis of  packet capture files (PCAP) using Wiresha
 <p> <Strong> Blue Section </Strong> OK with 200 response from server 192.168.56.111 </p>
 
 <h3> Calculate MD5 Hash value of zip file and its contents</h3>
-
+<img src="https://imgur.com/jEbJyxM.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <img src="https://imgur.com/iWYWzi9.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<img src="https://imgur.com/ByceLRL.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+
+<H3> PCAP 3 </H3>
+<H3> Analyze FTP server activities</H3>
+<p> Filter to FTP and retrieve information on response code 220 </p>
+<p> <code> ftp.response.code == 230 </code></p>
+<img src="https://imgur.com/s7GRk18.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+Right Click > Follow > TCP Stream
+<img src="https://imgur.com/ydzEMRn.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> Credentials used to log into FTP server and timestamp </p>
+<img src="https://imgur.com/P3WlwFq.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> Scroll down to see files threat actor retrieved </p>
+<img src="https://imgur.com/aja4vlZ.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> RETR password.backup</p>
+
+
+
+
+
+
 
 
